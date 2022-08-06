@@ -5,5 +5,5 @@ s=Service('C:\Driver\chromedriver')
 driver=webdriver.Chrome(service=s)
 driver.get('https://v2apptest.shippigo.in/login')
 driver.implicitly_wait(3)
-driver.find_element(By.,"//*[@id='mat-input-7']")
+driver.find_element(By.,"//*[@id='mat-input-7']") #URL
 # element.send_keys('aditya')
